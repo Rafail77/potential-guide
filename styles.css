@@ -105,4 +105,31 @@ header:nth-of-type(4) {
   gap: 10px;
 }
 
+/* Общие стили кнопок */
+.btn {
+  display: flex; /* Иконка внутри */
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary { background: #f0f0f0; }   /* Серая кнопка */
+.btn-secondary { background: #e0e0e0; } /* Вторая серая */
+.btn-tertiary { background: #5c53e9; color: #fff; } /* Фиолетовая */
+
+/* Тёмные хедеры */
+.header.dark {
+  background: #0b1628; /* Тёмный фон */
+}
+
+.header.dark .nav a {
+  color: #fff; /* Белое меню */
+}
+
+.header.dark .nav a.active {
+  color: #5c53e9; /* Акцент для активного */
+}
 
