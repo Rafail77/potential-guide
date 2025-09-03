@@ -48,86 +48,117 @@
 
 
 <!-- Header 2 -->
-<header> <!-- Второй хедер -->
-  <div class="header-block"> <!-- Блок с логотипом и меню -->
-    <div class="logo"> <!-- Логотип -->
-      <img src="./assets/Wood.png" alt="logo" width="40" height="40"> <!-- Картинка логотипа -->
-    </div>
-    <nav class="nav"> <!-- Навигация -->
-      <a href="#" class="active">Home</a> <!-- Активная ссылка -->
-      <a href="#">About</a>
-      <a href="#">Market</a>
-      <a href="#">Services</a>
-      <a href="#">Blog</a>
-    </nav>
-  </div>
-<div class="buttons"> <!-- Блок с кнопками -->
-  <button class="btn btn-primary"> <!-- первая серая кнопка -->
-<img src="./assets/Search.svg" alt="search" width="20" height="20"> 
-<button class="btn btn-secondary"> <!-- вторая серая кнопка -->
-<img src="./assets/Shopping-bag.svg" alt="Shopping-bag" width="20" height="20">       
-  <button class="btn btn-tertiary">Get Started</button> <!-- Фиолетовая кнопка -->
-</div>
-</header>
+  <header class="header"> <!-- Второй хедер -->
+    <div class="header-block"> <!-- Общий контейнер -->
 
-<!-- Header 3 -->
-<header> <!-- Третий хедер -->
-  <div class="header-block"> <!-- Блок с логотипом и меню -->
-    <div class="logo"> <!-- Логотип -->
-      <img src="./assets/Logo.png" alt="logo" width="113" height="30"> <!-- Картинка логотипа -->
-    </div>
-    <nav class="nav"> <!-- Навигация -->
-      <a href="#">About</a> <!-- Активная ссылка -->
-      <a href="#">Features</a>
-      <a href="#">Pricing</a>
-      <a href="#">Gallery</a>
-      <a href="#">Team</a>
-    </nav>
-  </div>
-<div class="buttons"> <!-- Блок с кнопками -->
-  <button class="btn btn-primary"> <!-- первая серая кнопка -->
-<img src="./assets/Right.svg" alt="Search Box" width="24" height="24">       
- </div>
-</header>
+      <div class="left-block"> <!-- Логотип -->
+        <div class="logo">
+          <img src="./assets/Wood.png" alt="logo" width="40" height="40"> <!-- Лого -->
+        </div>
+      </div>
 
-<!-- Header 4 -->
-<header> <!-- Четвертый хедер -->
-  <div class="header-block"> <!-- Блок с логотипом и меню -->
-    <div class="logo"> <!-- Логотип -->
-      <img src="./assets/Logo.png" alt="logo" width="113" height="30"> <!-- Картинка логотипа -->
-    </div>
-    <nav class="nav"> <!-- Навигация -->
-      <a href="#">About</a> 
-      <a href="#">Features</a>
-      <a href="#">Pricing</a>
-      <a href="#">Gallery</a>
-      <a href="#">Team</a>
-    </nav>
-  </div>     
- </div>
-</header>
+      <div class="right-block"> <!-- Навигация + кнопки -->
+        <nav class="nav"> <!-- Меню -->
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Market</a>
+          <a href="#">Services</a>
+          <a href="#">Blog</a>
+        </nav>
 
-<!-- Header 5 -->
-<header> <!-- Пятый хедер -->
-  <div class="header-block"> <!-- Блок с логотипом и меню -->
-    <div class="logo"> <!-- Логотип -->
-      <img src="./assets/Logo.png" alt="logo" width="113" height="30"> <!-- Картинка логотипа -->
+        <div class="buttons"> <!-- Кнопки справа -->
+          <button class="btn btn-primary">
+            <img src="./assets/Search.svg" alt="search" width="20" height="20">
+          </button>
+          <button class="btn btn-secondary">
+            <img src="./assets/Shopping-bag.svg" alt="Shopping-bag" width="20" height="20">
+          </button>
+          <button class="btn btn-tertiary">Sign In</button>
+        </div>
+      </div>
+
     </div>
-    <div class="search-box"> <!-- Блок для поиска -->
-      <input type="text" placeholder="Search"> <!-- Поле ввода текста для поиска -->
-      <img src="./assets/Icon.svg" alt="lope" width="24" height="24"> <!-- Иконка поиска -->
-      
+  </header>
+
+  <!-- Header 3 -->
+  <header class="header dark"> <!-- Третий хедер (тёмный фон) -->
+    <div class="header-block"> <!-- Общий контейнер -->
+
+      <div class="left-block"> <!-- Логотип -->
+        <div class="logo">
+          <img src="./assets/Logo.png" alt="logo" width="113" height="30"> <!-- Лого -->
+        </div>
+      </div>
+
+      <div class="right-block"> <!-- Меню + кнопка -->
+        <nav class="nav"> <!-- Навигация -->
+          <a href="#">About</a>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Gallery</a>
+          <a href="#">Team</a>
+        </nav>
+
+        <div class="buttons"> <!-- Кнопка справа -->
+          <button class="btn btn-primary">
+            <img src="./assets/Right.svg" alt="arrow" width="24" height="24">
+          </button>
+        </div>
+      </div>
+
     </div>
-    <nav class="nav"> <!-- Навигация -->
-      <a href="#">About</a> 
-      <a href="#">Features</a>
-      <a href="#">Pricing</a>
-      <a href="#">Gallery</a>
-      <a href="#">Team</a>
-    </nav>
-  </div>     
- </div>
-</header>
+  </header>
+
+  <!-- Header 4 -->
+  <header class="header dark"> <!-- Четвёртый хедер (тёмный фон) -->
+    <div class="header-block"> <!-- Общий контейнер -->
+
+      <div class="left-block"> <!-- Логотип -->
+        <div class="logo">
+          <img src="./assets/Logo.png" alt="logo" width="113" height="30"> <!-- Лого -->
+        </div>
+      </div>
+
+      <div class="right-block"> <!-- Меню -->
+        <nav class="nav">
+          <a href="#">About</a>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Gallery</a>
+          <a href="#">Team</a>
+        </nav>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Header 5 -->
+  <header class="header dark"> <!-- Пятый хедер (тёмный фон) -->
+    <div class="header-block"> <!-- Общий контейнер -->
+
+      <div class="left-block"> <!-- Логотип + поиск -->
+        <div class="logo">
+          <img src="./assets/Logo.png" alt="logo" width="113" height="30"> <!-- Лого -->
+        </div>
+
+        <div class="search-box"> <!-- Поиск -->
+          <input type="text" placeholder="Search"> <!-- Поле -->
+          <img src="./assets/Icon.svg" alt="search" width="24" height="24"> <!-- Иконка -->
+        </div>
+      </div>
+
+      <div class="right-block"> <!-- Меню -->
+        <nav class="nav">
+          <a href="#">About</a>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Gallery</a>
+          <a href="#">Team</a>
+        </nav>
+      </div>
+
+    </div>
+  </header>
 
 </body>
 
