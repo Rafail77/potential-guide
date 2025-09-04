@@ -19,7 +19,11 @@ header:nth-of-type(3) {
 
 header:nth-of-type(4) {
   margin-top: 24px;  /* У четвёртого */
-  margin-bottom: 31px; /* Доп. отступ снизу */
+}
+
+header:nth-of-type(5) {
+  margin-top: 22px;  /* У третьего */
+  margin-bottom: 300px; /* Доп. отступ снизу */
 }
 
 .header {
