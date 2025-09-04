@@ -52,7 +52,7 @@ header:nth-of-type(5) {
   display: flex;                               /* Иконка + input в ряд */
   align-items: center;                         /* Выравниваем по центру */
   border: 1px solid rgba(223, 223, 223, 1);  /* Серая рамка */
-  padding: 12px;                        /* Внутренние отступы */
+  padding: 12px;                               /* Внутренние отступы */
   border-radius: 8px;                          /* Скругленные углы */
   width: 352px;                                /* Ширина */
   gap: 10px;
@@ -120,9 +120,20 @@ header:nth-of-type(5) {
   cursor: pointer;
 }
 
-.btn-primary { background: #f0f0f0; }   /* Серая кнопка */
-.btn-secondary { background: #e0e0e0; } /* Вторая серая */
-.btn-tertiary { background: #5c53e9; color: #fff; } /* Фиолетовая */
+.btn-primary { 
+  background: rgba(240, 240, 240, 1)   /* Серая кнопка */
+}
+
+.btn-secondary { background: rgba(240, 240, 240, 1) /* Вторая серая */
+}
+
+.btn-tertiary { background: rgba(92, 83, 233, 1); color: rgba(255, 255, 255, 1); /* Фиолетовая */
+}
+
+/* Для второго header */
+header:nth-of-type(2) .buttons {
+  gap: 6px; /* Иконки-кнопки во втором хедере */
+}
 
 /* Тёмные хедеры */
 .header.dark {
