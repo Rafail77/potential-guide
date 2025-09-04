@@ -130,6 +130,19 @@ header:nth-of-type(5) {
 .btn-tertiary { background: rgba(92, 83, 233, 1); color: rgba(255, 255, 255, 1); /* Фиолетовая */
 }
 
+/* Левая часть (лого + меню) */
+header:nth-of-type(2) .left-block {
+  display: flex; 
+  align-items: center;
+  gap: 32px; /* Отступ между лого и навигацией */
+}
+
+/* Навигация */
+header:nth-of-type(2) .nav {
+  display: flex;
+  gap: 48px; /* Отступы между ссылками */
+}
+
 /* Специально для второго header */
 header:nth-of-type(2) .nav a {
   color: rgba(36, 36, 36, 1); /* Тёмно-серый цвет по макету */
