@@ -130,7 +130,16 @@ header:nth-of-type(5) {
 .btn-tertiary { background: rgba(92, 83, 233, 1); color: rgba(255, 255, 255, 1); /* Фиолетовая */
 }
 
-/* Для второго header */
+/* Специально для второго header */
+header:nth-of-type(2) .nav a {
+  color: rgba(36, 36, 36, 1); /* Тёмно-серый цвет по макету */
+}
+
+header:nth-of-type(2) .nav a.active {
+  color: rgba(88, 86, 214, 1);   /* Цвет для активной ссылки */
+}
+
+/* Специально для второго header */
 header:nth-of-type(2) .buttons {
   gap: 6px; /* Иконки-кнопки во втором хедере */
 }
