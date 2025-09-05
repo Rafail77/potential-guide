@@ -81,33 +81,29 @@
   </header>
 
   <!-- Header 3 -->
-  <header class="header dark"> <!-- Третий хедер (тёмный фон) -->
-    <div class="header-block"> <!-- Общий контейнер -->
+<header class="header header-3"> <!-- Третий хедер, отдельный класс для уникального стиля -->
+  <div class="header-block"> <!-- Общий контейнер -->
 
-      <div class="left-block"> <!-- Логотип -->
-        <div class="logo">
-          <img src="./assets/Logo.png" alt="logo" width="113" height="30"> <!-- Лого -->
-        </div>
-      </div>
-
-      <div class="right-block"> <!-- Меню + кнопка -->
-        <nav class="nav"> <!-- Навигация -->
-          <a href="#">About</a>
-          <a href="#">Features</a>
-          <a href="#">Pricing</a>
-          <a href="#">Gallery</a>
-          <a href="#">Team</a>
-        </nav>
-
-        <div class="buttons"> <!-- Кнопка справа -->
-          <button class="btn btn-primary">
-            <img src="./assets/Right.svg" alt="arrow" width="24" height="24">
-          </button>
-        </div>
-      </div>
-
+    <div class="logo"> <!-- Блок с логотипом -->
+      <img src="./assets/Logo.png" alt="logo" width="113" height="30"> <!-- Логотип -->
     </div>
-  </header>
+
+    <nav class="nav"> <!-- Навигационное меню -->
+      <a href="#" class="active">About</a> <!-- Активная ссылка -->
+      <a href="#">Features</a> <!-- Ссылка -->
+      <a href="#">Pricing</a> <!-- Ссылка -->
+      <a href="#">Gallery</a> <!-- Ссылка -->
+      <a href="#">Team</a> <!-- Ссылка -->
+    </nav>
+
+    <div class="buttons"> <!-- Правая часть с кнопкой -->
+      <button class="btn btn-primary">
+        <img src="./assets/Right.svg" alt="arrow" width="24" height="24"> <!-- Иконка внутри кнопки -->
+      </button>
+    </div>
+
+  </div> <!-- Конец контейнера header-block -->
+</header>
 
   <!-- Header 4 -->
   <header class="header dark"> <!-- Четвёртый хедер (тёмный фон) -->
