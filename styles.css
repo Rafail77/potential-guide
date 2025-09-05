@@ -157,6 +157,23 @@ header:nth-of-type(2) .buttons {
   gap: 6px; /* Иконки-кнопки во втором хедере */
 }
 
+/* ===== Header 3 ===== */
+.header-3 {
+  background: rgba(255, 255, 255, 1); /* Фон белый */
+  padding: 0px, 36px; /* Отступы внутри */
+}
+
+.header-3 .header-block {
+  display: flex;               /* В одну линию */
+  align-items: center;         /* Выравнивание по центру */
+  justify-content: space-between; /* Лого слева, кнопка справа */
+}
+
+
+
+
+
+
 /* Тёмные хедеры */
 .header.dark {
   background: #0b1628; /* Тёмный фон */
