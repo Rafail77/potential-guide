@@ -206,9 +206,6 @@ header:nth-of-type(2) .buttons {
   cursor: pointer;
 }
 
-
-
-
 /* Тёмные хедеры */
 .header.dark {
   background: #0b1628; /* Тёмный фон */
