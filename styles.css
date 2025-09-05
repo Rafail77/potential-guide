@@ -167,10 +167,34 @@ header:nth-of-type(2) .buttons {
   display: flex;               /* В одну линию */
   align-items: center;         /* Выравнивание по центру */
   justify-content: space-between; /* Лого слева, кнопка справа */
+  gap: 408px;
 }
 
+/* Логотип */
+.header-3 .logo img {
+  display: block; 
+  color: rgba(0, 0, 0, 1); /* Цвет лого по макету */
+}
 
+/* Меню */
+.header-3 .nav {
+  display: flex;
+  gap: 40px; /* Отступы между ссылками */
+}
 
+.header-3 .nav a {
+  font-family: 'Roboto' sans-serif; 
+  text-decoration: none;        /* Без подчёркивания */
+  font-size: 16px;              /* Размер текста */
+  font-weight: 400;             /* Толщина текста */
+  color: rgba(0, 0, 0, 1);      /* Чёрный текст */
+}
+
+/* Кнопка справа */
+.header-3 .buttons {
+  display: flex;
+  align-items: center;
+}
 
 
 
