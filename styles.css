@@ -236,3 +236,45 @@ header:nth-of-type(2) .buttons {
   font-weight: 400; 
   color: rgba(255, 255, 255, 1); /* Цвет ссылок */
 }
+
+/* ===== Header 5 ===== */
+.header-5 {
+  background: rgba(17, 25, 40, 1); /* Черный фон */
+  padding: 16px 36px; /* Отступы внутри */
+  border-radius: 10px;
+}
+
+.header-5 .header-block {
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-start; /* Элементы идут слева направо */
+  gap: 0; /* Сбрасываем общий gap */
+}
+
+.header-5 .logo {
+  margin-right: 50px; /* ✅ Отступ между Logo и Search box */
+}
+
+.header-5 .search-box {
+  margin-right: 40px; /* ✅ Отступ между Search box и навигацией */
+  display: flex; /* Input + иконка в ряд */
+  align-items: center;
+  border: 1px solid rgba(223, 223, 223, 1); /* Серая рамка */
+  border-radius: 8px; /* Скруглённые углы */
+  padding: 8px 12px; /* Отступы */
+  width: 240px; /* Ширина поиска */
+  gap: 10px; /* Отступ между input и иконкой */
+}
+
+.header-5 .search-box input {
+  border: none; 
+  outline: none; 
+  flex: 1; /* Растягивается */
+  font-size: 14px; 
+  color: rgba(112, 112, 112, 1);
+}
+
+.header-5 .nav {
+  display: flex; 
+  gap: 32px; /* Отступы между ссылками */
+}
