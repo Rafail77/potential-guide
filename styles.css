@@ -72,7 +72,7 @@ header:nth-of-type(5) {
 .right-block {
   display: flex;   /* Меню + кнопки в одну линию */
   align-items: center;
-  gap: 40px;       /* Здесь фиксируем отступ 40px между nav и buttons */
+  gap: 40px;       /* Фиксируем отступ 40px между nav и buttons */
 }
 
 .nav {
@@ -100,7 +100,7 @@ header:nth-of-type(5) {
   font-family: 'Inter' sans-serif; 
   background-color: rgba(0, 0, 0, 1);     /* Чёрная кнопка */
   color: rgba(255, 255, 255, 1);          /* Белый текст */
-  padding: 12px;          /* Внутренние отступы */
+  padding: 12px;                            /* Внутренние отступы */
   border: none;               /* Без рамки */
   border-radius: 8px;         /* Скругление */
   cursor: pointer;            /* Курсор "рука" */
@@ -145,7 +145,7 @@ header:nth-of-type(2) .nav {
 
 /* Специально для второго header */
 header:nth-of-type(2) .nav a {
-  color: rgba(36, 36, 36, 1); /* Тёмно-серый цвет по макету */
+  color: rgba(36, 36, 36, 1); /* Цвет по макету */
 }
 
 header:nth-of-type(2) .nav a.active {
@@ -174,7 +174,7 @@ header:nth-of-type(2) .buttons {
 /* Логотип */
 .header-3 .logo img {
   display: block; 
-  color: rgba(0, 0, 0, 1); /* Цвет лого по макету */
+  color: rgba(0, 0, 0, 1); /* Цвет лого */
 }
 
 /* Меню */
@@ -263,18 +263,18 @@ header:nth-of-type(2) .buttons {
   align-items: center;             /* Выравнивание текста и иконки по центру */
   border: 1px solid rgba(214, 216, 222, 1); /* Светло-серая рамка вокруг */
   border-radius: 8px;              /* Скругляем углы у поля поиска */
+  width: 500px;                    /* Растягиваем строку поиска до 500px */
   padding: 8px 12px;               /* Внутренние отступы внутри поля */
-  width: 240px;                    /* Ширина поля поиска */
   gap: 10px;                       /* Расстояние между input и иконкой */
 }
 
 .header-5 .search-box input {
   border: none;                    /* Убираем стандартную рамку у input */
   outline: none;                   /* Убираем подсветку при фокусе */
-  flex: 1;                         /* Input растягивается и занимает всё свободное место */
+  flex: 1;                         /* Input занимает всё доступное место */
   font-size: 14px;                 /* Размер текста */
   color: rgba(214, 216, 222, 1);   /* Светлый цвет текста */
-  background: rgba(17, 25, 40, 1); /* Тот же тёмный фон, что и у контейнера */
+  background: rgba(17, 25, 40, 1); /* Тот же тёмный фон, что и у контейнера */                   
 }
 
 .header-5 .nav {
@@ -287,5 +287,5 @@ header:nth-of-type(2) .buttons {
   text-decoration: none;             /* Без подчёркивания */
   font-size: 16px;                   /* Размер текста */
   font-weight: 400;                  /* Толщина шрифта normal */
-  color: rgba(255, 255, 255, 1);     /* Белый цвет ссылок */
+  color: rgba(255, 255, 255, 1);   /* Белый цвет ссылок */
 }
