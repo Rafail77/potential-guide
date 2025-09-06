@@ -160,7 +160,8 @@ header:nth-of-type(2) .buttons {
 /* ===== Header 3 ===== */
 .header-3 {
   background: rgba(255, 255, 255, 1); /* Фон белый */
-  padding: 0px, 36px; /* Отступы внутри */
+  padding: 25px, 36px; /* Отступы внутри */
+  border-radius: 10px;
 }
 
 .header-3 .header-block {
@@ -206,21 +207,32 @@ header:nth-of-type(2) .buttons {
   cursor: pointer;
 }
 
-/* Тёмные хедеры */
-.header.dark {
-  background: #0b1628; /* Тёмный фон */
+/* ===== Header 4 ===== */
+.header-4 {
+  background: rgba(17, 25, 40, 1); /* Черный фон */
+  padding: 20px 36px; /* Отступы внутри */
+  border-radius: 10px;
 }
 
-.header.dark .logo img {
-  display: block;
-  color: rgba(255, 255, 255, 1);
+.header-4 .header-block {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; /* Лого слева, меню справа */
 }
 
-.header.dark .nav a {
-  color: #fff; /* Белое меню */
+.header-4 .logo img {
+  display: block; /* Убираем отступы картинки */
 }
 
-.header.dark .nav a.active {
-  color: #5c53e9; /* Акцент для активного */
+.header-4 .nav {
+  display: flex; 
+  gap: 40px; /* Отступы между ссылками */
 }
 
+.header-4 .nav a {
+  font-family: 'Roboto' sans-serif; 
+  text-decoration: none; /* Без подчёркивания */
+  font-size: 16px; 
+  font-weight: 400; 
+  color: rgba(255, 255, 255, 1); /* Цвет ссылок */
+}
