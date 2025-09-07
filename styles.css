@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif; /* Общий шрифт */
-  margin: 30px;               /* Убираем внешние отступы */
+  margin: 30px;            /* Внешний отступ для всей страницы */
   padding: 0;              /* Убираем внутренние */
   background-color: rgba(0, 0, 0, 0.08); /* Цвет фона */
 }
@@ -121,10 +121,10 @@ header:nth-of-type(5) {
 }
 
 .btn-primary { 
-  background: rgba(240, 240, 240, 1)   /* Серая кнопка */
+  background: rgba(240, 240, 240, 1);   /* Серая кнопка */
 }
 
-.btn-secondary { background: rgba(240, 240, 240, 1) /* Вторая серая */
+.btn-secondary { background: rgba(240, 240, 240, 1); /* Вторая серая */
 }
 
 .btn-tertiary { background: rgba(92, 83, 233, 1); color: rgba(255, 255, 255, 1); /* Фиолетовая */
@@ -160,7 +160,7 @@ header:nth-of-type(2) .buttons {
 /* ===== Header 3 ===== */
 .header-3 {
   background: rgba(255, 255, 255, 1); /* Фон белый */
-  padding: 25px, 36px; /* Отступы внутри */
+  padding: 16px 36px; /* Отступы внутри */
   border-radius: 10px;
 }
 
